@@ -1,5 +1,22 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .contain{
     height: 70px;
     width: auto;
     background-color: red;
+}
+
+.contain ul{
+    flex-direction: row;
+}
+
+.contain li{
+    list-style-type: none;
+    margin: 20px;
+    font-size: 1.5em;
+    color: lime;
 }
